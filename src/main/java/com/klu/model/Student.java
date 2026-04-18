@@ -11,13 +11,13 @@ public class Student {
 	private char gender;
 	@Autowired
 	private Certification certification;
-	
+
 	public Student() {
 		this.id = 100;
-		this.name = "Srithan";
+		this.name = "Sudheer";
 		this.gender = 'M';
 	}
-	
+
 	public void display() {
 		System.out.println("Below are the student's details:");
 		System.out.println();
